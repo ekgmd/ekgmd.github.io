@@ -170,4 +170,9 @@ h2 {
   text-align: center;
 }
 
+.box .insert {
+  padding: 5px 5px 5px 0px;
+  text-align: center;
+}
+
 }
