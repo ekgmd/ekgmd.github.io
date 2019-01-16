@@ -58,7 +58,8 @@ a:hover {
 
 #aboutme {
   clear:both;
-  margin-bottom:50px;
+  margin-top:50px;
+  margin-bottom:0px;
 }
 
 .box {
@@ -105,6 +106,7 @@ a:hover {
 
 #page_footer {
   text-align: center;
+  margin-top:50px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -151,6 +153,7 @@ h3 {
 
 #aboutme {
   clear:both;
+  margin-top:50px;
   margin-bottom:0px;
 }
 
@@ -160,6 +163,11 @@ h3 {
   -webkit-filter: brightness(100%); /* Safari 6.0 - 9.0 */
   filter: brightness(100%);
   border-color: white;
+}
+
+#page_footer {
+  text-align: center;
+  margin-top: 50px;
 }
 
 .box {
