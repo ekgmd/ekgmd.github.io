@@ -1917,7 +1917,7 @@ body {
 }
 .cid-rqqOx2tvPs {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #efefef;
 }
 .cid-rqqOx2tvPs .line {
@@ -1938,6 +1938,11 @@ body {
   .cid-rqqOx2tvPs .inner-container {
     width: 100% !important;
   }
+}
+.cid-rqrtmsOgPv {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #efefef;
 }
 .cid-qTkAaeaxX5 {
   padding-top: 60px;
