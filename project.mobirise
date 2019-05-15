@@ -667,6 +667,58 @@
                 "customStyle1": "display-7",
                 "caption": "Δυναμική Ιστοσελίδα eShop",
                 "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gtsoil-website-1080x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gtsoil-website-1080x1080-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Δυναμική Ιστοσελίδα",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/meat-boutique-illustration-1080x1080.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/meat-boutique-illustration-1080x1080-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Εικονογράφηση",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/happy-panda-instagram-1680x1050.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/happy-panda-instagram-1680x1050-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Προσωπικό Σκίτσο Καρτούν",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/lucky-luk-instagram-1680x1050.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/lucky-luk-instagram-1680x1050-800x800.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Προσωπικό Σκίτσο Καρτούν",
+                "active": false
               }
             ]
           }
