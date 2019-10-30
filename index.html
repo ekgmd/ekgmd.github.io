@@ -44,6 +44,7 @@
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link active js-scroll-trigger" href="#portfolio">Δείγματα Εργασιών</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#favorites">Αγαπημένα</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#skills">Ψηφιακές Δεξιότητες</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Επικοινωνία</a></li>
                     </ul>
@@ -93,6 +94,16 @@
             </div>
         </div>
     </div>
+    <section id="favorites">
+        <div class="container blog">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 text-center align-self-center">
+                    <h2>Αγαπημένα</h2>
+                    <p>Περιεχόμενο από τον ιστό</p><a class="btn btn-light fav-button" role="button" data-toggle="modal" href="#favorites-modal">Δείτε τα</a></div>
+                <div class="col-12 col-sm-6 col-md-6 text-center"><img class="img-fluid" src="assets/img/icons/blogging.svg"></div>
+            </div>
+        </div>
+    </section>
     <div id="skills" class="features-boxed">
         <div class="container">
             <div class="text-center intro">
@@ -166,12 +177,27 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="favorites-modal">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Αγαπημένα<br></h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <h5 class="text-center">Christopher Hart. Σχέδιο καρτούν για αρχάριους</h5>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/61qUZgdH-aI" class="embed-responsive-item" width="560" height="315"></iframe></div>
+                    <h5 class="text-center">Christopher Hart. Βιβλίο σχεδίου καρτούν</h5><img src="assets/img/blog/christopher-hart-humongous-book-of-cartooning.jpg">
+                    <h5 class="text-center">Γλώσσα Προγραμματισμού <strong>AMOS BASIC</strong> | Amiga 500 έτος 1990</h5>
+                    <p class="text-center">Προγραμματιστές:&nbsp;François Lionet και Constantin Sotiropoulos</p><img src="assets/img/blog/amos-basic.jpg"></div>
+                <div class="modal-footer sr-only"><button class="btn btn-light" type="button" data-dismiss="modal">Κλείσιμο</button></div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade" role="dialog" tabindex="-1" id="old-websites-modal">
         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Παλιές Ιστοσελίδες HTML / CSS<br></h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body"><img src="assets/img/d-waste-eshop.jpg" style="margin-top: 15px;margin-bottom: 30px;"><img src="assets/img/karagiannis-wood-website.jpg" style="margin-bottom: 30px;"><img src="assets/img/panourgias-coiffure.jpg" style="margin-bottom: 30px;"><img src="assets/img/Kalteq-website.jpg" style="margin-bottom: 30px;"></div>
+                <div class="modal-body"><img src="assets/img/d-waste-eshop.jpg" style="margin-top: 15px;margin-bottom: 30px;"><img src="assets/img/karagiannis-wood-website.jpg" style="margin-bottom: 30px;"><img src="assets/img/panourgias-coiffure.jpg" style="margin-bottom: 30px;"><img src="assets/img/Kalteq-website.jpg" style="margin-bottom: 15px;"></div>
                 <div
                     class="modal-footer sr-only"><button class="btn btn-light" type="button" data-dismiss="modal">Κλείσιμο</button></div>
         </div>
