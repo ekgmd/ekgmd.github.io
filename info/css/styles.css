@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5, h6,
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 h1, .h1 {
-  font-size: 3.0rem;
+  font-size: 2.20rem;
 }
 h2, .h2 {
   font-size: 2.5rem;
@@ -393,8 +393,8 @@ h6, .h6 {
 }
 }
 
-/* Medium devices (landscape tablets, 601px and up) */
-@media only screen and (min-width: 601px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 h1, .h1 {
   font-size: 4.5rem;
 }
@@ -419,10 +419,10 @@ h6, .h6 {
 }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1025px) {
 h1, .h1 {
-  font-size: 6rem;
+  font-size: 6.0rem;
 }
 h2, .h2 {
   font-size: 3.5rem;
